@@ -1,0 +1,18 @@
+# >>-------------------- Function------------------------------------------------<<
+#  >>-----------------------Calculator----------------------------------------------<<
+# >>----------------------- version 1.1---------------------------------------------<<
+def calculator(a,operator,b):
+    if(operator=='+'):
+        print("result=",(a+b))
+    elif(operator=='-'):
+        print("result=",(a-b))
+    elif(operator=='*'):
+        print("result=",(a*b))
+    elif(operator=='/'):
+        print("result=",(a/b))
+
+while True:
+    variable_1=int(input("First variable:"))
+    variable_2=int(input("Second variable:"))
+    operator=input("Choose your operator:")
+    calculator(variable_1,operator,variable_2)
